@@ -6,7 +6,7 @@ import StrategyBlog from '../views/StrategyBlog.vue';
 
 const routes = [
     { path: '/', name: 'HomePage', component: HomePage },
-    { path: '/Strategy', name: 'Strategy', component: StrategyHome },
+    { path: '/Strateg', name: 'Strategy', component: StrategyHome },
     // { path: '/StrategyHome', name: 'StrategyHome', component: StrategyHome },
     // { path: '/StrategyBlog', name: 'StrategyBlog', component: StrategyBlog },
 ];
