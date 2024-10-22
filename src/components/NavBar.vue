@@ -12,7 +12,7 @@
             <router-link to="/" class="nav-link">Home</router-link>
           </li>
 
-          <!-- <li class="nav-item dropdown mx-4">
+          <li class="nav-item dropdown mx-4">
             <router-link to="/attractions" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">Attractions</router-link>
             <ul class="dropdown-menu">
@@ -20,13 +20,13 @@
               <router-link to="/attractions/another-action" class="dropdown-item">Another action</router-link>
               <router-link to="/attractions/something-else" class="dropdown-item">Something else here</router-link>
             </ul>
-          </li> -->
-
-          <li class="nav-item mx-4">
-            <router-link to="/Strategy" class="nav-link">Travel Strategy</router-link>
           </li>
 
-          <li class="nav-item dropdown mx-4">
+          <li class="nav-item mx-4">
+            <router-link to="/Strategy" class="nav-link">Travel Guide</router-link>
+          </li>
+
+          <!-- <li class="nav-item dropdown mx-4">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Travel Guides
             </a>
@@ -35,7 +35,7 @@
               <router-link to="/guides/another-action" class="dropdown-item">Another action</router-link>
               <router-link to="/guides/something-else" class="dropdown-item">Something else here</router-link>
             </ul>
-          </li>
+          </li> -->
 
           <li class="nav-item mx-4">
             <router-link to="/community" class="nav-link">Community</router-link>
