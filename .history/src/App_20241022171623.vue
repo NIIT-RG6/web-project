@@ -7,7 +7,7 @@
 </template>
 
 <script>
-//import "./style.css";
+import "./style.css";
 import NavBar from './components/NavBar.vue';
 import AppFooter from './components/AppFooter.vue';
 

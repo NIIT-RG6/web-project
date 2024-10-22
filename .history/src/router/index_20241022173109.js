@@ -8,11 +8,11 @@ import Street from '@/views/Street.vue';
 
 const routes = [
     { path: '/', name: 'HomePage', component: HomePage },
-    { path: '/attractions/college', name: 'College', component: College },
-    { path: '/attractions/foods', name: 'Foods', component: Foods },
-    { path: '/attractions/park', name: 'Park', component: Park },
-    { path: '/attractions/sky', name: 'Sky', component: Sky },
-    { path: '/attractions/street', name: 'Street', component: Street },
+    { path: '/Attractions/College', name: 'College', component: College },
+    { path: '/Attractions/Foods', name: 'Foods', component: Foods },
+    { path: '/Attractions/Park', name: 'Park', component: Park },
+    { path: '/Attractions/Sky', name: 'Sky', component: Sky },
+    { path: '/Attractions/Street', name: 'Street', component: Street },
 ];
 
 const router = createRouter({

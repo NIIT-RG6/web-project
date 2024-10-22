@@ -7,7 +7,6 @@
 </template>
 
 <script>
-//import "./style.css";
 import NavBar from './components/NavBar.vue';
 import AppFooter from './components/AppFooter.vue';
 
@@ -16,6 +15,17 @@ export default {
     NavBar,
     AppFooter
   }
+}
+
+
+
+import "./style.css";
+import Nav from "./components/Nav.vue";
+export default {
+  name: "App",
+  components: {
+    Nav,
+  },
 };
 </script>
 

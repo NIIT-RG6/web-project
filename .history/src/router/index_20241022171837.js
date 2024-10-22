@@ -7,12 +7,7 @@ import Sky from '@/views/Sky.vue';
 import Street from '@/views/Street.vue';
 
 const routes = [
-    { path: '/', name: 'HomePage', component: HomePage },
-    { path: '/attractions/college', name: 'College', component: College },
-    { path: '/attractions/foods', name: 'Foods', component: Foods },
-    { path: '/attractions/park', name: 'Park', component: Park },
-    { path: '/attractions/sky', name: 'Sky', component: Sky },
-    { path: '/attractions/street', name: 'Street', component: Street },
+    { path: '/', name: 'HomePage', component: HomePage }
 ];
 
 const router = createRouter({
