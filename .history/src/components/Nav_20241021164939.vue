@@ -29,7 +29,6 @@ export default {
   color: #fff;
   font-weight: bold;
   font-size: 16px;
-
   span {
     height: 50px;
     cursor: pointer;

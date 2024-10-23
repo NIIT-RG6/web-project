@@ -23,7 +23,7 @@ import router from './router';
 import ElementPlus from "element-plus";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 //import "amfe-flexible";
-//import "./rem.js";
+import "/rem.js";
 import * as ElementPlusIconsVue from "@element-plus/icons-vue";
 
 
