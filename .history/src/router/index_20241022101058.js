@@ -6,8 +6,8 @@ import StrategyBlog from '../views/StrategyBlog.vue';
 
 const routes = [
     { path: '/', name: 'HomePage', component: HomePage },
-    { path: '/guide', name: 'Strategy', component: StrategyHome },
-    { path: '/guide/blog', name: 'Strategy/Blog', component: StrategyBlog },
+    { path: '/Strategy', name: 'Strategy', component: StrategyHome },
+    { path: '/Strategy/Blog', name: 'Strategy/Blog', component: StrategyBlog },
 ];
 
 const router = createRouter({

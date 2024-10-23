@@ -1791,8 +1791,8 @@ a {
 
 .ops .inner a.comment {
   display: inline-block;
-  display: inline;
-  zoom: 1;
+  *display: inline;
+  *zoom: 1;
   background: 0;
   height: 25px;
   color: #999;

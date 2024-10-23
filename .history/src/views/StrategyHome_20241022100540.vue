@@ -11,7 +11,7 @@
       <h1 class="title">Real-time Top 3</h1>
       <div class="top-content">
         <div class="item">
-          <img src="@/assets/images/top1.jpg">
+          <img src="@/assets/top1.jpg">
           <div class="pop">
             <p class="pop-title">Cloud Cave</p>
             <p>
@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="@/assets/images/top2.jpg">
+          <img src="@/assets/top2.jpg">
           <div class="pop">
             <p class="pop-title">Qilou Old Street</p>
             <p>
@@ -33,7 +33,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="@/assets/images/top3.jpg">
+          <img src="@/assets/top3.jpg">
           <div class="pop">
             <p class="pop-title">Haikou holiday beach</p>
             <p>
@@ -48,15 +48,13 @@
     <div class="select-box">
       <div class="select-item">
         <label>Month:</label>
-        <span v-for="item in monthData" :key="item" :class="{ active: monthIndex === item }"
-          @click="monthIndex = item">{{
-            item }}</span>
+        <span v-for="item in monthData" :key="item" :class="{ active: monthIndex === item }" @click="monthIndex = item">{{
+          item }}</span>
       </div>
       <div class="select-item">
         <label>Days:</label>
-        <span v-for="item in dayData" :key="item" :class="{ active: dayIndex === item }" @click="dayIndex = item">{{
-          item
-        }}</span>
+        <span v-for="item in dayData" :key="item" :class="{ active: dayIndex === item }" @click="dayIndex = item">{{ item
+          }}</span>
       </div>
       <div class="select-item">
         <label>Number:</label>
@@ -73,12 +71,12 @@
           <p>Browse: {{ item.view }}</p>
         </div>
         <div class="top-btn" @click="item.topBtn = !item.topBtn">
-          <img :src="item.topBtn ? require('@/assets/images/good-check.png') : require('@/assets/images/good.png')"
+          <img :src="item.topBtn ? require('@/assets/good-check.png') : require('@/assets/good.png')"
             style="width: 20px;height: 20px">
         </div>
       </div>
       <div class="essay-none" v-if="essayShowData.length === 0">
-        <img src="@/assets/images/face.png">
+        <img src="@/assets/face.png">
         <p>Sorry, we didn't find any eligible strategies</p>
       </div>
     </div>
@@ -1583,7 +1581,7 @@ export default {
       if (item.src) {
         window.open(item.src)
       } else {
-        this.$router.push('/guide/blog')
+        this.$router.push('/Strategy/Blog')
         window.scrollTo(0, 0);
       }
     },
@@ -1618,7 +1616,7 @@ a {
 
 .search-box {
   height: 500px;
-  background-image: url('@/assets/images/homeTop.png');
+  background-image: url('@/assets/homeTop.png');
   background-size: cover;
   background-position: center;
   display: flex;

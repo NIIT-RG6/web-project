@@ -56,7 +56,7 @@
         <label>Days:</label>
         <span v-for="item in dayData" :key="item" :class="{ active: dayIndex === item }" @click="dayIndex = item">{{
           item
-        }}</span>
+          }}</span>
       </div>
       <div class="select-item">
         <label>Number:</label>
@@ -1583,7 +1583,7 @@ export default {
       if (item.src) {
         window.open(item.src)
       } else {
-        this.$router.push('/guide/blog')
+        this.$router.push('/Strategy/Blog')
         window.scrollTo(0, 0);
       }
     },

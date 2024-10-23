@@ -23,7 +23,7 @@
           </li>
 
           <li class="nav-item mx-4">
-            <router-link to="/guide" class="nav-link">Travel Guide</router-link>
+            <router-link to="/Strategy" class="nav-link">Travel Guide</router-link>
           </li>
 
           <!-- <li class="nav-item dropdown mx-4">

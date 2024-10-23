@@ -6,7 +6,7 @@
         返回</h2>
       <!-- Cover -->
       <div class="cover" style="height: 737.28px">
-        <img class="cover_img" src="@/assets/images/4147ded08cce5ccfe86c5b456dd5b04f.jpg"
+        <img class="cover_img" src="@/assets/4147ded08cce5ccfe86c5b456dd5b04f.jpg"
           alt="Watching the clouds and sails, looking at the sea, appreciating the blue, bathing in the sunset--- I love Haikou"
           style="
             display: inline;
@@ -21,7 +21,7 @@
         <!-- Content -->
         <div class="container">
           <img class="user_head" alt="" width="107" height="107"
-            src="@/assets/images/a4ba88b3bc3dc7ac.jpg_r_150x150_40b3e290.jpg" />
+            src="@/assets/a4ba88b3bc3dc7ac.jpg_r_150x150_40b3e290.jpg" />
           <div class="user_info">
             <div class="e_title">
               <h1>
@@ -1203,7 +1203,7 @@ h6 {
   bottom: 0;
   width: 100%;
   height: 110px;
-  background: url("@/assets/images/foreword_title_bg.png") 0 -1px repeat-x;
+  background: url("@/assets/foreword_title_bg.png") 0 -1px repeat-x;
   _background: 0;
 }
 
@@ -1278,7 +1278,7 @@ a {
   vertical-align: text-bottom;
   line-height: 12px;
   margin: 5px 5px 0 8px;
-  background: url("@/assets/images/edit_icon_png24.png") 0 0 no-repeat;
+  background: url("@/assets/edit_icon_png24.png") 0 0 no-repeat;
 }
 
 .header .cover_title .user_info .e_title h1 .link_copyschedule .icon {
@@ -1480,7 +1480,7 @@ a {
   height: 54px;
   text-indent: -9999px;
   margin: 0 auto;
-  background: url("@/assets/images/title_hover_bg.png") 0 0 no-repeat;
+  background: url("@/assets/title_hover_bg.png") 0 0 no-repeat;
 }
 
 .b_main_info .main_info_r ul .share .e_ops_down .weibo a {
@@ -1576,7 +1576,7 @@ a {
   padding-left: 29px;
   line-height: 24px;
   font-size: 14px;
-  background: url(@/assets/images/icon3.png) no-repeat 0 0;
+  background: url(@/assets/icon3.png) no-repeat 0 0;
 }
 
 .b_foreword .foreword_list .who {
@@ -1791,8 +1791,8 @@ a {
 
 .ops .inner a.comment {
   display: inline-block;
-  display: inline;
-  zoom: 1;
+  *display: inline;
+  *zoom: 1;
   background: 0;
   height: 25px;
   color: #999;
@@ -1834,15 +1834,15 @@ a {
 }
 
 .day_style3 .day_title .style {
-  background: url("@/assets/images/dlg_day_style.png") no-repeat -37px -627px;
+  background: url("@/assets/dlg_day_style.png") no-repeat -37px -627px;
 }
 
 .day_style4 .day_title .style {
-  background: url("@/assets/images/dlg_day_style.png") no-repeat -37px -705px;
+  background: url("@/assets/dlg_day_style.png") no-repeat -37px -705px;
 }
 
 .day_style5 .day_title .style {
-  background: url("@/assets/images/dlg_day_style.png") no-repeat -37px -790px;
+  background: url("@/assets/dlg_day_style.png") no-repeat -37px -790px;
 }
 
 .b_panel_schedule .period_hd dt div {
