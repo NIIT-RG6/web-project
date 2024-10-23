@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="right-item">Establishment time： 1958</div>
-        <div class="right-item">Area occupied： 6064亩</div>
+        <div class="right-item">Area occupied： 6064 acres</div>
         <div class="right-item">Address：The address "58 Renmin Avenue, Meilan District, Haikou City, Hainan Province
         </div>
         <div class="right-item">Popularity：18181240</div>

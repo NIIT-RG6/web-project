@@ -16,7 +16,7 @@
             <router-link to="/attractions" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">Attractions</router-link>
             <ul class="dropdown-menu">
-              <router-link to="/attractions/college" class="dropdown-item">Hainan Universit</router-link>
+              <router-link to="/attractions/college" class="dropdown-item">Hainan University</router-link>
               <router-link to="/attractions/park" class="dropdown-item">Baishamen Park</router-link>
               <router-link to="/attractions/sky" class="dropdown-item">The Sky Mountain</router-link>
               <router-link to="/attractions/street" class="dropdown-item">Qilou Street</router-link>
