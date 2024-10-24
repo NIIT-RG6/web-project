@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomePage from '../views/HomePage.vue';
 import StrategyHome from '../views/StrategyHome.vue';
 import StrategyBlog from '../views/StrategyBlog.vue';
-import InteractiveCommunity from '../views/InteractiveCommunity.vue';
+import InteractiveCommunity from '../pages/mainPage/InteractiveCommunity.vue';
 
 const routes = [
     { path: '/', name: 'HomePage', component: HomePage },

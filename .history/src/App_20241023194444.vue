@@ -1,0 +1,67 @@
+<template>
+<<<<<<< HEAD
+  <div id="app">
+    <NavBar />
+    <router-view />
+    <AppFooter />
+  </div>
+=======
+<div>
+
+	<h1>你好!这是app.vue索引界面</h1>
+	<router-link to="/community">前往页面</router-link>
+
+
+	<router-view></router-view>
+</div>
+>>>>>>> origin/InteractiveCommunity
+</template>
+	
+
+<script>
+<<<<<<< HEAD
+import NavBar from './components/NavBar.vue';
+import AppFooter from './components/AppFooter.vue';
+
+export default {
+  components: {
+    NavBar,
+    AppFooter
+  }
+}
+</script>
+
+<style></style>
+=======
+	export default {
+		onLaunch: function() {
+			console.warn('当前组件仅支持 uni_modules 目录结构 ，请升级 HBuilderX 到 3.1.0 版本以上！')
+			console.log('App Launch')
+		},
+		onShow: function() {
+			console.log('App Show')
+		},
+		onHide: function() {
+			console.log('App Hide')
+		}
+	}
+</script>
+
+<style lang="scss">
+	/*每个页面公共css */
+	@import '/public/index.scss';
+	/* #ifndef APP-NVUE */
+	@import '/static/customicons.css';
+	// 设置整个项目的背景色
+	page {
+		background-color: #f5f5f5;
+	}
+
+	/* #endif */
+	.example-info {
+		font-size: 14px;
+		color: #333;
+		padding: 10px;
+	}
+</style>
+>>>>>>> origin/InteractiveCommunity
