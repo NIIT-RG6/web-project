@@ -24,16 +24,20 @@
             </ul>
           </li>
 
-          <li class="nav-item dropdown mx-4">
+          <li class="nav-item mx-4">
+            <router-link to="/guide" class="nav-link">Travel Guide</router-link>
+          </li>
+
+          <!-- <li class="nav-item dropdown mx-4">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Travel Guides
             </a>
             <ul class="dropdown-menu">
-              <router-link to="/guides/action" class="dropdown-item">Action</router-link>
+              <router-link to="/StrategyHome" class="dropdown-item">Action</router-link>
               <router-link to="/guides/another-action" class="dropdown-item">Another action</router-link>
               <router-link to="/guides/something-else" class="dropdown-item">Something else here</router-link>
             </ul>
-          </li>
+          </li> -->
 
           <li class="nav-item mx-4">
             <router-link to="/community" class="nav-link">Community</router-link>
