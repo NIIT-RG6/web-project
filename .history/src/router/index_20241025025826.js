@@ -39,9 +39,9 @@ const routes = [
   { path: '/login', name: 'LoginPage', component: LoginPage },
   { path: '/register', name: 'RegisterPage', component: RegisterPage },
   { path: '/forgot', name: 'ForgotPassword', component: ForgotPassword },
-  { path: '/about-us/contract', name: 'ContractPage', component: ContractPage },
-  { path: '/about-us/privacy', name: 'PrivacyPolicy', component: PrivacyPolicy },
-  { path: '/about-us/team', name: 'TeamPage', component: TeamPage },
+  { path: '/contract', name: 'ContractPage', component: ContractPage },
+  { path: '/privacy', name: 'PrivacyPolicy', component: PrivacyPolicy },
+  { path: '/team', name: 'TeamPage', component: TeamPage },
 
   // {
   //   path: '/login',

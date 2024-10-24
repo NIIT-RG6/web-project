@@ -14,13 +14,13 @@ import ElementPlus from "element-plus";
 
 
 //import '../src/assets/js/vuetify'
-import '@/assets/css/global.css'
+//import '@/assets/css/global.css'
 
 
 createApp(App)
-  .use(ElementPlus)
+  //.use(ElementPlus)
   .use(router)
-  //.use(vuetify)
+  .use(vuetify)
   .use((app) => {
     for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
       app.component(key, component);

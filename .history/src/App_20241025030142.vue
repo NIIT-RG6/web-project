@@ -1,13 +1,8 @@
 <template>
 	<div id="app">
-		<!-- 只有在当前路径不属于隐藏列表时才显示 NavBar -->
-		<NavBar v-if="!shouldHideNavAndFooter" />
-
-		<!-- 路由视图 -->
+		<NavBar />
 		<router-view />
-
-		<!-- 只有在当前路径不属于隐藏列表时才显示 AppFooter -->
-		<AppFooter v-if="!shouldHideNavAndFooter" />
+		<AppFooter />
 	</div>
 </template>
 
@@ -15,9 +10,6 @@
 //import "./style.css";
 import NavBar from './components/NavBar.vue';
 import AppFooter from './components/AppFooter.vue';
-import { computed } from 'vue';
-import { useRoute } from 'vue-router';
-
 
 export default {
 	components: {
@@ -29,7 +21,7 @@ export default {
 		const route = useRoute();
 
 		// 定义需要隐藏 NavBar 和 AppFooter 的路径
-		const hiddenRoutes = ['/login', '/register', '/forgot', '/about-us/contract', '/about-us/privacy'];
+		const hiddenRoutes = ['/login', '/register', '/forgot', '/contract', '/privacy'];
 
 		// 判断当前路由路径是否在隐藏列表中
 		const shouldHideNavAndFooter = computed(() => hiddenRoutes.includes(route.path));
@@ -38,6 +30,7 @@ export default {
 			shouldHideNavAndFooter
 		};
 	}
+};
 };
 </script>
 

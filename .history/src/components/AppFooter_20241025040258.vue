@@ -14,15 +14,13 @@
                 <div class="col-md-4 offset-md-1">
                     <h5>SUBSCRIBE TO OUR NEWSLETTER</h5>
                     <p>Stay updated with the latest travel news and exclusive offers.</p>
-                    <form class="d-flex align-items-center">
-                        <div class="mb-3 me-2 flex-grow-1">
-                            <input type="email" class="form-control custom-input mt-3" placeholder="Enter your email" />
+                    <form class="d-flex">
+                        <div class="mb-3 flex-grow-1 me-2">
+                            <input type="email" class="form-control" placeholder="Enter your email" />
                         </div>
-                        <button type="submit" class="btn btn-primary btn-custom">Subscribe</button>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
                     </form>
                 </div>
-
-
 
 
                 <!-- CONTACT US -->
@@ -79,18 +77,6 @@ export default {
 
 .footer a:hover {
     color: #dddddd;
-}
-
-.custom-input {
-    height: 36px;
-    line-height: 1.2;
-}
-
-.btn-custom {
-    height: 44px;
-    line-height: 1.2;
-    padding: 0 15px;
-
 }
 
 .address-item {

@@ -42,7 +42,7 @@
 
         <!-- card -->
         <div class="container row mt-5 mx-auto justify-content-center">
-            <div class="col-md-5 mb-5 card-group" v-for="(attraction, index) in Attractions" :key="index">
+            <div class="col-md-6 mb-5 card-group" v-for="(attraction, index) in Attractions" :key="index">
                 <div class="card">
                     <img :src="attraction.image" class="card-img-top custom-card-img" :alt="attraction.name">
                     <div class="card-body">

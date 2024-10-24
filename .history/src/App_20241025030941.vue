@@ -29,7 +29,7 @@ export default {
 		const route = useRoute();
 
 		// 定义需要隐藏 NavBar 和 AppFooter 的路径
-		const hiddenRoutes = ['/login', '/register', '/forgot', '/about-us/contract', '/about-us/privacy'];
+		const hiddenRoutes = ['/login', '/register', '/forgot', '/about us/contract', '/about us/privacy'];
 
 		// 判断当前路由路径是否在隐藏列表中
 		const shouldHideNavAndFooter = computed(() => hiddenRoutes.includes(route.path));

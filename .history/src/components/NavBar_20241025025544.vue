@@ -12,17 +12,15 @@
             <router-link to="/" class="nav-link">Home</router-link>
           </li>
 
-          <!-- Attractions Dropdown -->
           <li class="nav-item dropdown mx-4">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Attractions
-            </a>
+            <router-link to="/attractions" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Attractions</router-link>
             <ul class="dropdown-menu">
-              <li><router-link to="/attractions/college" class="dropdown-item">Hainan University</router-link></li>
-              <li><router-link to="/attractions/park" class="dropdown-item">Baishamen Park</router-link></li>
-              <li><router-link to="/attractions/sky" class="dropdown-item">The Sky Mountain</router-link></li>
-              <li><router-link to="/attractions/street" class="dropdown-item">Qilou Street</router-link></li>
-              <li><router-link to="/attractions/foods" class="dropdown-item">Haikou Foods</router-link></li>
+              <router-link to="/attractions/college" class="dropdown-item">Hainan University</router-link>
+              <router-link to="/attractions/park" class="dropdown-item">Baishamen Park</router-link>
+              <router-link to="/attractions/sky" class="dropdown-item">The Sky Mountain</router-link>
+              <router-link to="/attractions/street" class="dropdown-item">Qilou Street</router-link>
+              <router-link to="/attractions/foods" class="dropdown-item">Haikou Foods</router-link>
             </ul>
           </li>
 
@@ -30,30 +28,20 @@
             <router-link to="/guide" class="nav-link">Travel Guide</router-link>
           </li>
 
+
           <li class="nav-item mx-4">
             <router-link to="/community" class="nav-link">Community</router-link>
           </li>
-
-          <!-- About Us Dropdown -->
-          <li class="nav-item dropdown mx-4">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              About us
-            </a>
-            <ul class="dropdown-menu">
-              <li><router-link to="/about-us/team" class="dropdown-item">Team</router-link></li>
-              <li><router-link to="/about-us/contract" class="dropdown-item">Contract</router-link></li>
-              <li><router-link to="/about-us/privacy" class="dropdown-item">Privacy</router-link></li>
-            </ul>
+          <li class="nav-item mx-4">
+            <router-link to="/service" class="nav-link">Service</router-link>
           </li>
         </ul>
 
-        <!-- Search Form -->
-        <form class="d-flex mx-auto" role="search">
+        <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
 
-        <!-- Login and Register Buttons -->
         <router-link to="/login" class="btn btn-outline-primary ms-5">Login</router-link>
         <router-link to="/register" class="btn btn-primary ms-2">Register</router-link>
       </div>

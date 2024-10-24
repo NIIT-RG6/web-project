@@ -18,9 +18,9 @@ import '@/assets/css/global.css'
 
 
 createApp(App)
-  .use(ElementPlus)
+  //.use(ElementPlus)
   .use(router)
-  //.use(vuetify)
+  .use(vuetify)
   .use((app) => {
     for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
       app.component(key, component);

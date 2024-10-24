@@ -2,31 +2,29 @@
     <footer class="footer bg-dark text-white py-4">
         <div class="container">
             <div class="row">
-                <!-- ABOUT US -->
-                <div class="col-md-3">
+                <!-- About us -->
+                <div class="col-md-4 mx-2">
                     <!-- <img :src="" alt=""> -->
                     <h5>ABOUT US</h5>
                     <p>Welcome to our website, where you can find rich travel information and the best travel strategies
                         in Haikou.</p>
                 </div>
 
-                <!-- NEWSLETTER SIGNUP -->
-                <div class="col-md-4 offset-md-1">
+                <!-- Quick Links -->
+                <div class="col-md-4 mx-2">
                     <h5>SUBSCRIBE TO OUR NEWSLETTER</h5>
                     <p>Stay updated with the latest travel news and exclusive offers.</p>
-                    <form class="d-flex align-items-center">
-                        <div class="mb-3 me-2 flex-grow-1">
-                            <input type="email" class="form-control custom-input mt-3" placeholder="Enter your email" />
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Enter your email" />
                         </div>
-                        <button type="submit" class="btn btn-primary btn-custom">Subscribe</button>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
                     </form>
                 </div>
 
 
-
-
-                <!-- CONTACT US -->
-                <div class="col-md-3 offset-md-1">
+                <!-- NEWSLETTER SIGNUP -->
+                <div class="col-md-4 mx-2">
                     <h5>CONTACT US</h5>
                     <ul class="list-unstyled contact-info">
                         <li>
@@ -42,7 +40,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="row offset-md-1">
+            <div class="row mt-4">
                 <div class="col text-center">
                     <p>&copy;Rythem of Coconut and Sea. </p>
                 </div>
@@ -79,18 +77,6 @@ export default {
 
 .footer a:hover {
     color: #dddddd;
-}
-
-.custom-input {
-    height: 36px;
-    line-height: 1.2;
-}
-
-.btn-custom {
-    height: 44px;
-    line-height: 1.2;
-    padding: 0 15px;
-
 }
 
 .address-item {

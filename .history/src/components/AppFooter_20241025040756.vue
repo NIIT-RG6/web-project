@@ -16,7 +16,7 @@
                     <p>Stay updated with the latest travel news and exclusive offers.</p>
                     <form class="d-flex align-items-center">
                         <div class="mb-3 me-2 flex-grow-1">
-                            <input type="email" class="form-control custom-input mt-3" placeholder="Enter your email" />
+                            <input type="email" class="form-control custom-input" placeholder="Enter your email" />
                         </div>
                         <button type="submit" class="btn btn-primary btn-custom">Subscribe</button>
                     </form>
@@ -82,15 +82,19 @@ export default {
 }
 
 .custom-input {
-    height: 36px;
+    height: 46px;
+    /* 设置输入框的高度与按钮一致 */
     line-height: 1.2;
+    /* 调整行高 */
 }
 
 .btn-custom {
-    height: 44px;
+    height: 36px;
+    /* 设置按钮的高度 */
     line-height: 1.2;
+    /* 调整行高，使文本垂直居中 */
     padding: 0 15px;
-
+    /* 调整按钮左右的内边距 */
 }
 
 .address-item {

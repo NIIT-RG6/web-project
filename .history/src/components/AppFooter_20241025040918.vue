@@ -83,12 +83,16 @@ export default {
 
 .custom-input {
     height: 36px;
+    /* 设置输入框的高度与按钮一致 */
     line-height: 1.2;
+    /* 调整行高 */
 }
 
 .btn-custom {
     height: 44px;
+
     line-height: 1.2;
+
     padding: 0 15px;
 
 }
