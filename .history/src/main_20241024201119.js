@@ -13,7 +13,7 @@ import ElementPlus from "element-plus";
 
 
 
-//import '../src/assets/js/vuetify'
+import '../src/assets/js/vuetify'
 import '@/assets/css/global.css'
 
 

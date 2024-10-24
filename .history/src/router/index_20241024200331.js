@@ -1,9 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router';
-
-// import vue from 'vue';
-// import VueRouter from 'vue-router';
-
-// Vue.use(VueRouter);
 //Static import
 import HomePage from '../views/HomePage.vue';
 import College from '@/views/College.vue';
@@ -14,6 +9,7 @@ import Street from '@/views/Street.vue';
 import StrategyHome from '../views/StrategyHome.vue';
 import StrategyBlog from '../views/StrategyBlog.vue';
 import InteractiveCommunity from '../views/InteractiveCommunity.vue';
+import LoginPage from '@/views/LoginPage.vue';
 
 //Dynamic import(lazy loading)
 const LoginPage = () => import('@/views/LoginPage.vue');

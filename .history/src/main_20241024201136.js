@@ -13,7 +13,7 @@ import ElementPlus from "element-plus";
 
 
 
-//import '../src/assets/js/vuetify'
+import '../src/assets/js/vuetify'
 import '@/assets/css/global.css'
 
 
@@ -29,10 +29,10 @@ createApp(App)
   .mount("#app");
 
 
-// Vue.use(vuetify)
-// Vue.config.productionTip = false
-// new Vue({
-//   vuetify,
-//   router,
-//   render: h => h(App)
-// }).$mount('#app')
+Vue.use(vuetify)
+Vue.config.productionTip = false
+new Vue({
+  vuetify,
+  router,
+  render: h => h(App)
+}).$mount('#app')

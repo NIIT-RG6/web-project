@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
-// import vue from 'vue';
-// import VueRouter from 'vue-router';
+import vue from 'vue';
+import VueRouter from 'vue-router';
 
-// Vue.use(VueRouter);
+Vue.use(VueRouter);
 //Static import
 import HomePage from '../views/HomePage.vue';
 import College from '@/views/College.vue';
