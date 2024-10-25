@@ -36,7 +36,7 @@
 
         <!-- main content -->
         <div class="container mt-5">
-            <h1 class="text-center">Welcome to the Travel Guide Website!</h1>
+            <h1 class="text-center">Welcome to the Rythem of Coconut and Sea!</h1>
             <p class="text-center">{{ message }}</p>
         </div>
 
