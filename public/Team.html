@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Voylio: Import Vuetify CSS -->
+
+    <link href="../src/assets/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="../src/assets/css/vuetify.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../src/assets/css/Team.css">
+
+    <!-- Voylio: Set viewport for responsive design -->
+    <title>Team Members</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+
+<body>
+    <div id="app">
+        <v-app class="warm-gradient">
+            <v-container fluid>
+                <v-row justify="center">
+                    <v-col cols="12" sm="10" md="8">
+                        <v-card elevation="0">
+                            <v-card-title class="text-center">
+                                <h2 style="width: 100%;color: #fff!important">Rythem of Coconut and Sea Developer Team</h2>
+                            </v-card-title>
+                            <v-card-text>
+                                <div class="teamMembersBox" v-for="member in teamMembers" :key="member.id" outline>
+                                    <img :src="member.imgUrl" alt="loading...">
+                                    <div class="teamMemberInfo">
+                                        <h3><div class="sumInfo">Name:</div>{{ member.name }}</h3>
+                                        <h3><div class="sumInfo">Role:</div>{{ member.role }}</h3>
+                                        <h3><div class="sumInfo">Introduction:</div>{{ member.introduction }}</h3>
+                                    </div>
+                                </div>
+                            </v-card-text>
+                        </v-card>
+                    </v-col>
+                </v-row>
+            </v-container>
+        </v-app>
+    </div>
+</body>
+<!-- Voylio: Import Vue and Vuetify JavaScript -->
+<script src="../src/assets/js/vue.js"></script>
+<script src="../src/assets/js/vuetify.js"></script>
+<!-- Voylio: Optional JavaScript files for drag and drop functionality -->
+<!-- <script src="../static/js/axios.min.js"></script>
+    <script src="../static/js/vue-router.global.js"></script> -->
+<script src="../src/assets/js/Team.js"></script>

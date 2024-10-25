@@ -1,0 +1,18 @@
+/* Commented by Voylio */
+/* Sets a warm gradient background using linear gradient at a 45-degree angle from #FFB74D to #FF8A65 */
+.warm-gradient {
+    background: linear-gradient(45deg, #FFB74D, #FF8A65);
+}
+
+/* Commented by Voylio */
+/* Applies a transition effect for background color with a duration of 0.5 seconds for the application wrapper */
+.v-application--wrap {
+    transition: background-color 0.5s;
+}
+
+/* Commented by Voylio */
+/* Button effect on hover, moves upward by 3px and applies a shadow for a floating appearance */
+.v-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
