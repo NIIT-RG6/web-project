@@ -59,15 +59,10 @@
 
 
           <div class="content-container" style="width: 1100px;border-left: 1px solid gainsboro;">
-            <div class="author"
-              style="display: flex; flex-direction:row;margin-left: 6%;margin-top: 2%;border-bottom:1px gainsboro solid;">
-              <img src="@/assets/images/my_icon.png" alt="" style="height: 50px;width: 50px;" />
-              <text style="align-self: center;margin-left: 10px;font-size: 18px;color: dimgray;">用户名</text>
-            </div>
 
 
             <div class="scroll_item">
-              <h2 style="margin-left: 8%;margin-top: 12%;">{{ selectedPost.title }}</h2>
+              <h2 style="margin-left: 8%;margin-top: 6%;">{{ selectedPost.title }}</h2>
               <p style="margin-left: 8%;margin-top: 7px;">{{ selectedPost.description }}</p>
 
 
@@ -172,7 +167,7 @@ export default {
 
 <style lang="scss">
 .scroll_item {
-  max-height: 580px;
+  max-height: 625px;
   overflow-y: hidden;
   padding: 10px;
   margin-bottom: 20px;

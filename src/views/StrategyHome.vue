@@ -269,9 +269,10 @@ export default {
         },
         //
         {
-          title: '在海口免税城「奢美之境」坐上逆龄时光机',
-          content: '海口',
-          author: '琳时出发',
+          title: 'Experience the Timeless Beauty at Haikou Duty-Free City',
+          content: 'Haikou',
+          author: 'Lin Starts Departure',
+
           view: 2745,
           topBtn: false,
           month: 'April-June',

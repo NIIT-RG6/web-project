@@ -15,42 +15,42 @@ export default {
     return {
       posts: [
         {
-          id: 1, title: '海口CBD的日落居然那么美', description: '国兴大道大英山CBD已经初具规模，未来待海南中心建成，海口的天际线将会更有层次感!',
+          id: 1, title: 'The sunset in Haikou CBD is so beautiful', description: 'Guoxing Avenue Dayingshan CBD has begun to take shape, and when the Hainan Center is completed in the future, the skyline of Haikou will be more layered!',
           image1: require('@/assets/images/img1.jpg'),
           image2: require('@/assets/images/img2.jpg'),
           comments: [
-            { name: '黎小喵', content: '最近的天气真的挺好的' },
-            { name: '💫Vincent 游北卡', content: "The weather's been really nice lately." },
+            { name: 'Li Xiaomeow', content: 'The weather has been really nice lately' },
+            { name: '💫Vincent Tour North Carolina', content: "The weather's been really nice lately." },
             { name: 'Rose', content: 'so beatuiful!' },
 
 
           ],
         },
         {
-          id: 2, title: '海口印象', description: '海口骑楼老街的晚上热闹非凡，本地人三三两两聚在一起吃饭喝酒聊天，路边停满了电动自行车，这就是海口人的松弛感吧。',
+          id: 2, title: 'Impression of Haikou', description: 'The night of Haikou Qilou Old Street is very lively, the locals get together to eat, drink and chat, and the roadside is full of electric bicycles, which is the relaxation of Haikou people.',
           image1: require('@/assets/images/img3.jpg'),
           comments: [
-            { name: 'Bob', content: 'You see see you !' },
-            { name: 'Jack', content: 'One day day 的!' },
-            { name: 'Rose', content: 'What things have you ever done ?!' }
+            { name: 'Bob', content: 'There are articles and comments here' },
+            { name: 'Jack', content: "We can like other's comments and like their comments" },
+            { name: 'Rose', content: 'We can also send our own comments and delete them' }
           ],
         },
         {
-          id: 3, title: '海口观海台', description: '拍摄于日出前的蓝调，第一次用12mm焦段。晒晒海口的风光',
+          id: 3, title: 'Haikou sea viewing platform', description: 'Shot in the blues before sunrise, for the first time with a 12mm focal length. Bask in the scenery of Haikou',
           image1: require('@/assets/images/img5.jpg'),
           comments: [
-            { name: 'Bob', content: 'You see see you !' },
-            { name: 'Jack', content: 'One day day 的!' },
-            { name: 'Rose', content: 'What things have you ever done ?!' }
+            { name: 'Bob', content: 'There are articles and comments here' },
+            { name: 'Jack', content: "We can like other's comments and like their comments" },
+            { name: 'Rose', content: 'We can also send our own comments and delete them' }
           ],
         },
         {
-          id: 4, title: '这儿可能是海口人最多的地方', description: '不知道是不是淡季 哪哪人都很少坐公交经常包车就骑楼老街人不少一半诗意一半烟火 洋气复古 妈祖保佑 连吃几天吃老爸茶',
+          id: 4, title: 'This is probably the most populous place in Haikou', description: 'I dont know if it is the off-season, which people rarely take the bus, often charter a bus to ride the old street, there are a lot of people, half poetry, half fireworks, foreign retro, Mazu bless, even eat a few days to eat dad tea',
           image1: require('@/assets/images/img4.jpg'),
           comments: [
-            { name: 'Bob', content: 'You see see you !' },
-            { name: 'Jack', content: 'One day day 的!' },
-            { name: 'Rose', content: 'What things have you ever done ?!' }
+            { name: 'Bob', content: 'There are articles and comments here' },
+            { name: 'Jack', content: "We can like other's comments and like their comments" },
+            { name: 'Rose', content: 'We can also send our own comments and delete them' }
           ],
         },
         {
@@ -58,73 +58,73 @@ export default {
           image1: require('@/assets/images/img1.jpg'),
           image2: require('@/assets/images/img2.jpg'),
           comments: [
-            { name: 'Bob', content: 'You see see you !' },
-            { name: 'Jack', content: 'One day day 的!' },
-            { name: 'Rose', content: 'What things have you ever done ?!' }
+            { name: 'Bob', content: 'There are articles and comments here' },
+            { name: 'Jack', content: "We can like other's comments and like their comments" },
+            { name: 'Rose', content: 'We can also send our own comments and delete them' }
           ],
         },
         {
           id: 6, title: 'Haikou Impression', description: 'The old street of Haikou Jialou is bustling at night, locals gather in twos and threes to eat and drink and chat, and the roadside is full of motorized bicycles, which is the sense of relaxation of Haikou people, right?',
           image1: require('@/assets/images/img3.jpg'),
           comments: [
-            { name: 'Bob', content: 'You see see you !' },
-            { name: 'Jack', content: 'One day day 的!' },
-            { name: 'Rose', content: 'What things have you ever done ?!' }
+            { name: 'Bob', content: 'There are articles and comments here' },
+            { name: 'Jack', content: "We can like other's comments and like their comments" },
+            { name: 'Rose', content: 'We can also send our own comments and delete them' }
           ],
         },
         {
           id: 7, title: 'Haikou Observation Deck', description: 'Taken in the blues before sunrise, first time using 12mm focal length. The scenery of Haikou',
           image1: require('@/assets/images/img5.jpg'),
           comments: [
-            { name: 'Bob', content: 'You see see you !' },
-            { name: 'Jack', content: 'One day day 的!' },
-            { name: 'Rose', content: 'What things have you ever done ?!' }
+            { name: 'Bob', content: 'There are articles and comments here' },
+            { name: 'Jack', content: "We can like other's comments and like their comments" },
+            { name: 'Rose', content: 'We can also send our own comments and delete them' }
           ],
         },
         {
           id: 8, title: 'This is probably the most crowded place in Haikou.', description: "I don't know if it's off-season, but there's not many people here, so I take public transportation, and often take a chartered car, but the old Jialou Street is full of people, half poetic, half fireworks, and retro, and blessed by the Mazu, with a few days of Dad's Tea.",
           image1: require('@/assets/images/img4.jpg'),
           comments: [
-            { name: 'Bob', content: 'You see see you !' },
-            { name: 'Jack', content: 'One day day 的!' },
-            { name: 'Rose', content: 'What things have you ever done ?!' }
+            { name: 'Bob', content: 'There are articles and comments here' },
+            { name: 'Jack', content: "We can like other's comments and like their comments" },
+            { name: 'Rose', content: 'We can also send our own comments and delete them' }
           ],
         },
         {
-          id: 9, title: '海口观海台', description: '拍摄于日出前的蓝调，第一次用12mm焦段。晒晒海口的风光',
+          id: 9, title: 'Haikou sea viewing platform', description: 'Shot in the blues before sunrise, for the first time with a 12mm focal length. Bask in the scenery of Haikou',
           image1: require('@/assets/images/img5.jpg'),
           image2: require('@/assets/images/img2.jpg'),
           comments: [
-            { name: 'Bob', content: 'You see see you !' },
-            { name: 'Jack', content: 'One day day 的!' },
-            { name: 'Rose', content: 'What things have you ever done ?!' }
+            { name: 'Bob', content: 'There are articles and comments here' },
+            { name: 'Jack', content: "We can like other's comments and like their comments" },
+            { name: 'Rose', content: 'We can also send our own comments and delete them' }
           ],
         },
         {
-          id: 10, title: '这儿可能是海口人最多的地方', description: '不知道是不是淡季 哪哪人都很少坐公交经常包车就骑楼老街人不少一半诗意一半烟火 洋气复古 妈祖保佑 连吃几天吃老爸茶',
+          id: 10, title: 'This is probably the most populous place in Haikou', description: 'I dont know if it is the off-season, which people rarely take the bus, often charter a bus to ride the old street, there are a lot of people, half poetry, half fireworks, foreign retro, Mazu bless, even eat a few days to eat dad tea',
           image1: require('@/assets/images/img4.jpg'),
           comments: [
-            { name: 'Bob', content: 'You see see you !' },
-            { name: 'Jack', content: 'One day day 的!' },
-            { name: 'Rose', content: 'What things have you ever done ?!' }
+            { name: 'Bob', content: 'There are articles and comments here' },
+            { name: 'Jack', content: "We can like other's comments and like their comments" },
+            { name: 'Rose', content: 'We can also send our own comments and delete them' }
           ],
         },
         {
           id: 11, title: 'Sunset in Haikou CBD is actually so beautiful!', description: "Guoxing Avenue Danyingshan CBD has taken shape, the future to be built in Hainan Center, Haikou's skyline will be more layered!",
           image1: require('@/assets/images/img1.jpg'),
           comments: [
-            { name: 'Bob', content: 'You see see you !' },
-            { name: 'Jack', content: 'One day day 的!' },
-            { name: 'Rose', content: 'What things have you ever done ?!' }
+            { name: 'Bob', content: 'There are articles and comments here' },
+            { name: 'Jack', content: "We can like other's comments and like their comments" },
+            { name: 'Rose', content: 'We can also send our own comments and delete them' }
           ],
         },
         {
           id: 12, title: 'Haikou Impression', description: 'The old street of Haikou Jialou is bustling at night, locals gather in twos and threes to eat and drink and chat, and the roadside is full of motorized bicycles, which is the sense of relaxation of Haikou people, right?',
           image1: require('@/assets/images/img3.jpg'),
           comments: [
-            { name: 'Bob', content: 'You see see you !' },
-            { name: 'Jack', content: 'One day day 的!' },
-            { name: 'Rose', content: 'What things have you ever done ?!' }
+            { name: 'Bob', content: 'There are articles and comments here' },
+            { name: 'Jack', content: "We can like other's comments and like their comments" },
+            { name: 'Rose', content: 'We can also send our own comments and delete them' }
           ],
         },
 
